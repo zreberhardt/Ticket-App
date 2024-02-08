@@ -1,16 +1,6 @@
-## Getting Started
+The Ticket Tracker App is developed using Next.js, incorporating React, TypeScript, Tailwind CSS, and Radix UI. The application features an API built with MySQL and utilizes Prisma as an Object-Relational Mapping (ORM) tool.
 
-This is the completed source code for the issue tracker project we build in my Ultimate Next.js series. You can find the full course here:
 
-https://codewithmosh.com/p/ultimate-nextjs-series
-
-To get started, follow these steps:
-
-1. Clone this repository to your local machine. 
-2. In the project folder, rename **.env.example** to **.env** (no period after). 
-3. Set **all** the environment variables according to the instructions I've included in the file. If you don't set them properly, the application is not going to work.
-4. Run `npm install` to install the dependencies.
-5. Run `npx prisma migrate dev` to generate your database tables.
-6. Run `npm run dev` to start the web server. 
+The primary functionality of the app revolves around real-time tracking of ticket creation and management. Users can perform CRUD (Create, Read, Update, Delete) operations on tickets through the application's dashboard, which interacts seamlessly with the underlying MySQL database. The use of Radix UI enhances the user interface, providing a responsive and user-friendly experience. Overall, the Ticket Tracker App serves as an efficient tool for monitoring and handling tickets with a robust tech stack for both frontend and backend development.
 
 
